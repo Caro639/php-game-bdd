@@ -1,0 +1,100 @@
+body {
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140, 140, 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgb(19, 19, 19);
+  padding: 8px 10px;
+}
+th {
+  background-color: #070707;
+  color: white;
+  text-align: left;
+  border: #070707 solid 2px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+/* button a {
+  background-color: #070707;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.edit {
+  background-color: #f48e19;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: #ab170c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.show {
+  /* background-color: black; */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+}
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
