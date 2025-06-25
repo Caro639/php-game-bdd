@@ -1,6 +1,5 @@
 <?php
 include 'pdo.php';
-// $pdo = include 'pdo.php';
 ?>
 
 <!DOCTYPE html>

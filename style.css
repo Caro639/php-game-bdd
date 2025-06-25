@@ -45,19 +45,6 @@ td:last-of-type {
   text-align: center;
 }
 
-/* button a {
-  background-color: #070707;
-  color: white;
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  padding: 10px 15px;
-  margin: 20px 0;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-} */
-
 a {
   text-decoration: none;
   color: white;
@@ -78,7 +65,6 @@ a {
 }
 
 .show {
-  /* background-color: black; */
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
